@@ -9,3 +9,5 @@ class Car:
     def drive(self):
         print(str(self.year) + " " + self.make + " " + self.model + " is driving. Vroom vroom.")
 
+    def honk(self):
+        print('beep beep')
