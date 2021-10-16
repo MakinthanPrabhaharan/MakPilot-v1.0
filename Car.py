@@ -12,9 +12,6 @@ class Car:
     def honk(self):
         print('beep beep')
 
+    def breakdown(self):
+        print('car broke down')
 
-class CircuitComponent:
-
-    def __init__(self, posNode, negNode):
-        self.posNode = posNode
-        self.negNode = negNode
